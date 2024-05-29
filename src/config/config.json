@@ -1,0 +1,34 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "doctorcare",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "port":"3306",
+        "operatorsAliases": 0,
+        "dialectOptions": {
+            "dateStrings": true,
+            "typeCast": true,
+            "timezone": "+07:00"
+        },
+        "timezone": "+07:00",
+        "use_env_variable" : true
+    },
+    "production": {
+        "username": "root",
+        "password": "root",
+        "database": "doctorcare",
+        "dialect": "mysql",
+        "host": "127.0.0.1",
+        "operatorsAliases": 0,
+        "port": "3306",
+        "dialectOptions": {
+            "dateStrings": true,
+            "typeCast": true,
+            "timezone": "+07:00"
+        },
+        "timezone": "+07:00",
+        "use_env_variable" : true
+    }
+}
